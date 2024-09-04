@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Puzzle Game - TUTORIAL</title>
+    <link rel="stylesheet" href="./../style.css"> 
+
+    <script src="./../javascript_utils/config.js"></script>
+    <script src="./../javascript_utils/timer.js"></script>
+    <script src="./../javascript_utils/api_call.js"></script>
+    <script src="./../javascript_utils/go_to_game.js"></script>
+
+</head>
+
+<body>
+    <div class="text-center">
+        <h1 class="title">Puzzle Game - TUTORIAL</h1>
+    </div>
+    <div class="game_box">
+        <!-- <div id="c0">0</div>
+        <div id="c1">1</div>
+        <div id="c2">2</div>
+
+        <div id="c3"> </div>
+        <div id="c4">4</div>
+        <div id="c5">5</div>
+
+        <div id="c6">3</div>
+        <div id="c7">6</div>
+        <div id="c8">7</div> -->
+    </div>
+    <br>
+    <div class="all-stats-container">
+        <div class="stats-title">
+            GAME
+        </div>
+        <div class="stats-container" id="stats-game">
+            <div class="stats-detail" id="timer-game">
+                Time: 00:00
+            </div>
+            <div class="stats-detail" id="moves-game">
+                Moves: 0
+            </div>
+        </div>
+        <div class="stats-title">
+            RECORD
+        </div>
+        <div class="stats-container" id="stats-record">
+            <div class="stats-detail" id="timer-record">
+                Time: --:--
+            </div>
+            <div class="stats-detail" id="moves-record">
+                Moves: 0
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+
+
+    <div  align="center" id="game-div">
+        <input type="button" id="gg" style="visibility: hidden;" class="button-form2" value="Go to Game" onclick="go_to_game('easy')">
+    </div>
+    <script src="tutorial.js"></script>
+</body>
+
+</html>
